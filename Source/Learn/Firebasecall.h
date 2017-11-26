@@ -13,15 +13,5 @@ class LEARN_API UFirebasecall : public UBlueprintFunctionLibrary
 	GENERATED_BODY()
 	
 public:
-	FHttpModule* Http;
-
-	UFUNCTION(Blueprintcallable, Category = "WebServer Call")
-		static void MyHttpCall();
-
-	void StartCall();
-
-	static void OnResponseRecieved(FHttpRequestPtr Request, FHttpResponsePtr Response, bool bWasSuccessful);
-
-	UWebServerCall(const class FObjectInitializer& FObjectInitializer);
-	UWebServerCall();
+	
 };
