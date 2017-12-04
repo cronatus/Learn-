@@ -84,12 +84,12 @@ void ALearnCharacter::OnResetVR()
 
 void ALearnCharacter::TouchStarted(ETouchIndex::Type FingerIndex, FVector Location)
 {
-		Jump();
+	Jump();
 }
 
 void ALearnCharacter::TouchStopped(ETouchIndex::Type FingerIndex, FVector Location)
 {
-		StopJumping();
+	StopJumping();
 }
 
 void ALearnCharacter::TurnAtRate(float Rate)
